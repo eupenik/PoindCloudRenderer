@@ -1,10 +1,14 @@
+PCRendererTests
+PCRendererUITests
+
+
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
 ## Build generated
 build/
-DerivedData/
+DerivedData
 
 ## Various settings
 *.pbxuser
@@ -15,18 +19,17 @@ DerivedData/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
-xcuserdata/
+xcuserdata
 
 ## Other
-*.moved-aside
 *.xccheckout
+*.moved-aside
+*.xcuserstate
 *.xcscmblueprint
 
 ## Obj-C/Swift specific
 *.hmap
 *.ipa
-*.dSYM.zip
-*.dSYM
 
 ## Playgrounds
 timeline.xctimeline
@@ -36,7 +39,6 @@ playground.xcworkspace
 #
 # Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
 # Packages/
-# Package.pins
 .build/
 
 # CocoaPods
@@ -59,9 +61,11 @@ Carthage/Build
 # It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
 # screenshots whenever they are needed.
 # For more information about the recommended setup visit:
-# https://docs.fastlane.tools/best-practices/source-control/#source-control
+# https://github.com/fastlane/fastlane/blob/master/docs/Gitignore.md
 
 fastlane/report.xml
-fastlane/Preview.html
 fastlane/screenshots
-fastlane/test_output
+
+
+# Mac
+.DS_Store
